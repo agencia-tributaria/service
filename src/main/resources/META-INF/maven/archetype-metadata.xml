@@ -1,8 +1,7 @@
-<archetype-descriptor name="custom-archetype">
+<archetype-descriptor name="service">
+    
     <requiredProperties>
-        <requiredProperty key="foo">
-            <defaultValue>bar</defaultValue>
-        </requiredProperty>
+        <requiredProperty key="security-token"/>
     </requiredProperties>
 
     <fileSets>
